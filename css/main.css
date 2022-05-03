@@ -11,3 +11,15 @@ body{
 #help{
     text-align:left
 }
+
+#account{
+    background-color: gray;
+}
+
+#continue{
+    background-color: yellow;
+}
+
+#forgot{
+    color: blue;
+}
